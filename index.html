@@ -11,6 +11,7 @@
         @import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
     </style>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+    <script src="./src/script.js" defer></script>
 </head>
 
 <body class="page-content">
@@ -25,6 +26,10 @@
         <figure class="main-content__ucm-icon-container">
             <img class="ucm-icon-container__icon" src="./src/icono-ucm.jpeg" alt="UCM">
         </figure>
+        <video class="main-content__invitation-video" autoplay control loop>
+            <source src="./src/video-invitacion.mp4" type="video/mp4">
+            Tu navegador no soporta la reproducción de video.
+        </video>
         <section id="location" class="main-content__location-section">
             <h2 class="location-section__title">Ubicación</h2>
             <div class="location-section__message-container">
@@ -42,7 +47,7 @@
                 <div class="meetings-information__meeting-container">
                     <div class="meeting-container__date-and-name-meeting">
                         <span class="date-and-name-meeting__date">Domingos 4:00PM</span>
-                        <span class="date-and-name-meeting__name">Culto dominical</span>    
+                        <span class="date-and-name-meeting__name">Culto dominical</span>
                     </div>
                     <div class="meeting-container__location">
                         <figure class="location__video-container">
@@ -64,7 +69,8 @@
         </section>
         <section id="social-media" class="main-content__social-section">
             <h2 class="social-section__title">Redes Sociales</h2>
-            <p class="social-section__description">Dios nos ha dispuesto como herramientas para llevar a cabo su obra, por ello, estamos para brindarte
+            <p class="social-section__description">Dios nos ha dispuesto como herramientas para llevar a cabo su obra,
+                por ello, estamos para brindarte
                 apoyo en tu vida espiritual y en tu caminar con Dios. A continuación encontrarás nuestros medios
                 digitales de contacto: </p>
             <div class="social-section__social-media-containers">
@@ -88,6 +94,25 @@
                     <p class="whatsapp-card__description">¡Puedes escribirnos a nuestros números de contacto si
                         necesitas consejería, oración, o algún otro apoyo espiritual que te podamos brindar!</p>
                 </div>
+            </div>
+        </section>
+        <section class="main-content__image-section">
+            <h2 class="location-section__title">Somos Familia UCM</h2>
+            <div class="image-section__carousel">
+                <div class="carousel__carousel-images">
+                    <img src="./src/carousel-images/1.webp" alt="Imagen 1" class="carousel-images__image">
+                    <img src="./src/carousel-images/2.webp" alt="Imagen 2" class="carousel-images__image">
+                    <img src="./src/carousel-images/3.webp" alt="Imagen 3" class="carousel-images__image">
+                    <img src="./src/carousel-images/4.webp" alt="Imagen 4" class="carousel-images__image">
+                    <img src="./src/carousel-images/5.webp" alt="Imagen 5" class="carousel-images__image">
+                    <img src="./src/carousel-images/6.webp" alt="Imagen 6" class="carousel-images__image">
+                    <img src="./src/carousel-images/7.webp" alt="Imagen 7" class="carousel-images__image">
+                    <img src="./src/carousel-images/8.webp" alt="Imagen 8" class="carousel-images__image">
+                    <img src="./src/carousel-images/9.webp" alt="Imagen 9" class="carousel-images__image">
+                    <img src="./src/carousel-images/10.webp" alt="Imagen 10" class="carousel-images__image">
+                </div>
+                <button class="carousel__button-prev-image">&#10094;</button>
+                <button class="carousel__button-next-image">&#10095;</button>
             </div>
         </section>
     </main>
